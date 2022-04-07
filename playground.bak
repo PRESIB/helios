@@ -310,4 +310,4 @@
                 CH.ifa.draw.standard.RelativeLocator 0.5 0.5   2  
         de.renew.gui.CPNTextFigure "attributes" "attributes" 4 "TextAlignment" "Int" 1 "FigureWithID" "Int" 1930 "FrameColor" "Color" 255 199 158 255 "FillColor" "Color" 255 199 158 255 574 481 "warehouse" "SansSerif" 1 17 0 REF 25 
             CH.ifa.draw.standard.OffsetLocator 66 -1 
-                CH.ifa.draw.standard.RelativeLocator 0.5 0.5   2  NULL  595 398 1223 718 
+                CH.ifa.draw.standard.RelativeLocator 0.5 0.5   2  NULL  256 49 1606 966 
