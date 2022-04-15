@@ -1,0 +1,8 @@
+class CommunicationClient for net communication_client
+implements
+  pt.nfriacowboy.presib.hermes.utils.IMessageProcessor
+{
+  break void messageReceived(org.eclipse.paho.mqttv5.common.MqttMessage arg0) {
+    this:incomingMessage(arg0);
+  }
+}
