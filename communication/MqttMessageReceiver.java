@@ -9,10 +9,11 @@ import de.renew.engine.simulator.SimulationThreadPool;
 import de.renew.net.NetInstance;
 import de.renew.net.Place;
 import de.renew.net.PlaceInstance;
+import de.renew.net.SimulatablePlaceInstance;
 import de.renew.engine.searchqueue.SearchQueue;
 public class MqttMessageReceiver
   extends de.renew.net.NetInstanceImpl
-  implements pt.nfriacowboy.presib.hermes.utils.IMessageProcessor
+  implements pt.nfriacowboy.presib.hermes.communication.IMessageProcessor
 {
 
   private static final org.apache.log4j.Logger logger = org.apache.log4j.Logger

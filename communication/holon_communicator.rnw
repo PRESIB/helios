@@ -71,8 +71,8 @@
         de.renew.gui.CPNTextFigure "attributes" "attributes" 4 "TextAlignment" "Int" 1 "FigureWithID" "Int" 1307 "FrameColor" "Color" 255 199 158 255 "FillColor" "Color" 254 254 254 255 125 203 "holonId" "SansSerif" 0 12 0 REF 2 
             CH.ifa.draw.standard.OffsetLocator 0 0 
                 CH.ifa.draw.standard.RelativeLocator 0.5 0.5   1  
-        de.renew.gui.CPNTextFigure "attributes" "attributes" 4 "TextAlignment" "Int" 0 "FigureWithID" "Int" 1306 "FrameColor" "Color" 255 199 158 255 "FillColor" "Color" 255 199 158 255 192 181 "action client = new pt.nfriacowboy.presib.hermes.MqttClient(\"dsadasd\");\naction receiver = new MqttMessageReceiver();\naction client.connect();\naction client.messageProcessor(receiver)" "SansSerif" 0 12 0 REF 6 
-            CH.ifa.draw.standard.OffsetLocator 270 -52 
+        de.renew.gui.CPNTextFigure "attributes" "attributes" 4 "TextAlignment" "Int" 0 "FigureWithID" "Int" 1306 "FrameColor" "Color" 255 199 158 255 "FillColor" "Color" 255 199 158 255 192 181 "action client = new pt.nfriacowboy.presib.hermes.MqttClient(holonId);\naction receiver = new MqttMessageReceiver();\naction client.connect();\naction client.messageProcessor(receiver)" "SansSerif" 0 12 0 REF 6 
+            CH.ifa.draw.standard.OffsetLocator 261 -52 
                 CH.ifa.draw.standard.RelativeLocator 0.5 0.5   1  
         de.renew.gui.TransitionFigure "attributes" "attributes" 3 "FigureWithID" "Int" 1327 "FrameColor" "Color" 0 0 0 255 "FillColor" "Color" 112 219 147 255 287 441 24 16 NULL  
         de.renew.gui.CPNTextFigure "attributes" "attributes" 4 "TextAlignment" "Int" 0 "FigureWithID" "Int" 1329 "FrameColor" "Color" 255 199 158 255 "FillColor" "Color" 255 199 158 255 278 466 ":publish(topic, message);\nclient.sendMessage(topic, message)" "SansSerif" 0 12 0 REF 75 
