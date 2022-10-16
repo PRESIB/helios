@@ -628,6 +628,6 @@
             CH.ifa.draw.figures.ArrowTip 0.4 8.0 8.0 1  "CH.ifa.draw.figures.ArrowTip" 
             CH.ifa.draw.figures.ChopEllipseConnector REF 620  
             CH.ifa.draw.standard.ChopBoxConnector REF 207   
-        de.renew.gui.CPNTextFigure "attributes" "attributes" 4 "TextAlignment" "Int" 1 "FigureWithID" "Int" 4387 "FrameColor" "Color" 255 199 158 255 "FillColor" "Color" 254 254 254 255 1240 229 "[hc, topicNet]" "SansSerif" 0 12 0 REF 191 
+        de.renew.gui.CPNTextFigure "attributes" "attributes" 4 "TextAlignment" "Int" 1 "FigureWithID" "Int" 4387 "FrameColor" "Color" 255 199 158 255 "FillColor" "Color" 254 254 254 255 1245 229 "hc; topicNet" "SansSerif" 0 12 0 REF 191 
             CH.ifa.draw.standard.OffsetLocator -9 -4 
                 CH.ifa.draw.standard.RelativeLocator 0.5 0.5   1  NULL  
